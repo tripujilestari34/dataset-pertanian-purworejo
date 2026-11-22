@@ -1,0 +1,1226 @@
+@prefix sdmx-dim:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix res:  <http://purl.org/purworejo/resource/> .
+@prefix qb:  <http://purl.org/linked-data/cube#> .
+@prefix ex:  <http://purl.org/purworejo/ontology#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx-att:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-01>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Grabag" ;
+        ex:kodeWilayah  "33.06.01" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199115> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-01-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-01> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     33293.72 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-01>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Grabag" ;
+        ex:kodeWilayah  "33.06.01" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199115> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-01-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-01> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     33719.09 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-01>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Grabag" ;
+        ex:kodeWilayah  "33.06.01" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199115> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-01-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-01> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     29530.22 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-01>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Grabag" ;
+        ex:kodeWilayah  "33.06.01" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199115> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-01-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-01> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     36260.4 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-02>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Ngombol" ;
+        ex:kodeWilayah  "33.06.02" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200236> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-02-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-02> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     49110.65 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-02>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Ngombol" ;
+        ex:kodeWilayah  "33.06.02" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200236> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-02-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-02> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     51267.01 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-02>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Ngombol" ;
+        ex:kodeWilayah  "33.06.02" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200236> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-02-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-02> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     54978.34 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-02>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Ngombol" ;
+        ex:kodeWilayah  "33.06.02" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200236> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-02-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-02> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     56539.2 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-03>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purwodadi" ;
+        ex:kodeWilayah  "33.06.03" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200163> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-03-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-03> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     36125.41 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-03>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purwodadi" ;
+        ex:kodeWilayah  "33.06.03" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200163> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-03-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-03> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     34382.94 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-03>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purwodadi" ;
+        ex:kodeWilayah  "33.06.03" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200163> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-03-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-03> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     37357.53 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-03>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purwodadi" ;
+        ex:kodeWilayah  "33.06.03" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200163> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-03-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-03> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     39135.7 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-04>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bagelen" ;
+        ex:kodeWilayah  "33.06.04" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200280> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-04-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-04> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     3626.12 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-04>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bagelen" ;
+        ex:kodeWilayah  "33.06.04" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200280> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-04-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-04> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     5235.67 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-04>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bagelen" ;
+        ex:kodeWilayah  "33.06.04" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200280> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-04-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-04> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     5645.88 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-04>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bagelen" ;
+        ex:kodeWilayah  "33.06.04" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200280> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-04-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-04> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     6293.49 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-05>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kaligesing" ;
+        ex:kodeWilayah  "33.06.05" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200276> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-05-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-05> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     1005.18 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-05>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kaligesing" ;
+        ex:kodeWilayah  "33.06.05" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200276> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-05-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-05> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     993.96 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-05>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kaligesing" ;
+        ex:kodeWilayah  "33.06.05" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200276> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-05-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-05> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     1050.05 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-05>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kaligesing" ;
+        ex:kodeWilayah  "33.06.05" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200276> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-05-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-05> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     1189.5 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-06>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purworejo" ;
+        ex:kodeWilayah  "33.06.06" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q3504647> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-06-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-06> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     17067.6 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-06>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purworejo" ;
+        ex:kodeWilayah  "33.06.06" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q3504647> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-06-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-06> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     16308.6 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-06>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purworejo" ;
+        ex:kodeWilayah  "33.06.06" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q3504647> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-06-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-06> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     19749.99 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-06>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Purworejo" ;
+        ex:kodeWilayah  "33.06.06" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q3504647> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-06-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-06> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     19042.2 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-07>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Banyuurip" ;
+        ex:kodeWilayah  "33.06.07" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199008> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-07-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-07> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     36384.76 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-07>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Banyuurip" ;
+        ex:kodeWilayah  "33.06.07" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199008> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-07-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-07> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     35037.9 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-07>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Banyuurip" ;
+        ex:kodeWilayah  "33.06.07" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199008> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-07-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-07> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     11884.29 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-07>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Banyuurip" ;
+        ex:kodeWilayah  "33.06.07" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199008> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-07-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-07> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     32184.22 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-08>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bayan" ;
+        ex:kodeWilayah  "33.06.08" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4198983> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-08-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-08> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     20898.83 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-08>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bayan" ;
+        ex:kodeWilayah  "33.06.08" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4198983> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-08-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-08> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     "24249"^^xsd:decimal ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-08>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bayan" ;
+        ex:kodeWilayah  "33.06.08" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4198983> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-08-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-08> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     23952.94 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-08>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bayan" ;
+        ex:kodeWilayah  "33.06.08" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4198983> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-08-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-08> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     26510.4 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-09>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kutoarjo" ;
+        ex:kodeWilayah  "33.06.09" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199102> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-09-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-09> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     25071.64 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-09>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kutoarjo" ;
+        ex:kodeWilayah  "33.06.09" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199102> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-09-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-09> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     24498.34 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-09>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kutoarjo" ;
+        ex:kodeWilayah  "33.06.09" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199102> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-09-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-09> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     24707.2 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-09>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kutoarjo" ;
+        ex:kodeWilayah  "33.06.09" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199102> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-09-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-09> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     "27000"^^xsd:decimal ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-10>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Butuh" ;
+        ex:kodeWilayah  "33.06.10" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234897> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-10-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-10> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     34075.18 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-10>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Butuh" ;
+        ex:kodeWilayah  "33.06.10" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234897> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-10-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-10> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     34907.15 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-10>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Butuh" ;
+        ex:kodeWilayah  "33.06.10" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234897> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-10-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-10> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     41216.66 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-10>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Butuh" ;
+        ex:kodeWilayah  "33.06.10" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234897> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-10-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-10> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     39153.6 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-11>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Pituruh" ;
+        ex:kodeWilayah  "33.06.11" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234928> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-11-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-11> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     31008.02 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-11>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Pituruh" ;
+        ex:kodeWilayah  "33.06.11" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234928> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-11-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-11> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     29981.54 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-11>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Pituruh" ;
+        ex:kodeWilayah  "33.06.11" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234928> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-11-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-11> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     36493.92 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-11>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Pituruh" ;
+        ex:kodeWilayah  "33.06.11" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4234928> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-11-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-11> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     34624.8 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-12>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kemiri" ;
+        ex:kodeWilayah  "33.06.12" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200217> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-12-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-12> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     17564.82 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-12>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kemiri" ;
+        ex:kodeWilayah  "33.06.12" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200217> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-12-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-12> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     17364.62 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-12>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kemiri" ;
+        ex:kodeWilayah  "33.06.12" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200217> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-12-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-12> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     17760.08 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-12>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Kemiri" ;
+        ex:kodeWilayah  "33.06.12" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200217> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-12-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-12> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     20620.8 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-13>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bruno" ;
+        ex:kodeWilayah  "33.06.13" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200248> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-13-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-13> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     12307.73 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-13>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bruno" ;
+        ex:kodeWilayah  "33.06.13" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200248> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-13-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-13> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     12461.96 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-13>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bruno" ;
+        ex:kodeWilayah  "33.06.13" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200248> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-13-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-13> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     10989.1 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-13>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bruno" ;
+        ex:kodeWilayah  "33.06.13" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200248> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-13-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-13> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     "10439"^^xsd:decimal ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-14>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Gebang" ;
+        ex:kodeWilayah  "33.06.14" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200301> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-14-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-14> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     15527.12 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-14>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Gebang" ;
+        ex:kodeWilayah  "33.06.14" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200301> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-14-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-14> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     17031.11 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-14>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Gebang" ;
+        ex:kodeWilayah  "33.06.14" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200301> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-14-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-14> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     14073.08 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-14>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Gebang" ;
+        ex:kodeWilayah  "33.06.14" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200301> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-14-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-14> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     11662.11 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-15>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Loano" ;
+        ex:kodeWilayah  "33.06.15" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200289> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-15-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-15> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     13286.52 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-15>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Loano" ;
+        ex:kodeWilayah  "33.06.15" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200289> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-15-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-15> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     10592.05 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-15>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Loano" ;
+        ex:kodeWilayah  "33.06.15" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200289> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-15-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-15> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     10165.86 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-15>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Loano" ;
+        ex:kodeWilayah  "33.06.15" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4200289> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-15-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-15> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     11046.4 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-16>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bener" ;
+        ex:kodeWilayah  "33.06.16" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199066> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-16-2020>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-16> ;
+        sdmx-dim:refPeriod    "2020"^^xsd:gYear ;
+        ex:jumlahproduksi     18102.28 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-16>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bener" ;
+        ex:kodeWilayah  "33.06.16" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199066> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-16-2021>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-16> ;
+        sdmx-dim:refPeriod    "2021"^^xsd:gYear ;
+        ex:jumlahproduksi     15867.06 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-16>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bener" ;
+        ex:kodeWilayah  "33.06.16" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199066> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-16-2022>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-16> ;
+        sdmx-dim:refPeriod    "2022"^^xsd:gYear ;
+        ex:jumlahproduksi     17762.53 ;
+        sdmx-att:unitMeasure  "ton" .
+
+res:dataset-jumlah-produksi
+        rdf:type      qb:DataSet ;
+        dct:title     "Jumlah Produksi Pertanian Kabupaten Purworejo (2020-2023)"@id ;
+        qb:structure  res:dsd-jumlah-produksi .
+
+<http://purl.org/purworejo/resource/kecamatan/33-06-16>
+        rdf:type        ex:Kecamatan ;
+        rdfs:label      "Bener" ;
+        ex:kodeWilayah  "33.06.16" ;
+        owl:sameAs      <http://www.wikidata.org/entity/Q4199066> .
+
+<http://purl.org/purworejo/resource/obs/jumlah-produksi-33-06-16-2023>
+        rdf:type              qb:Observation ;
+        qb:dataSet            res:dataset-jumlah-produksi ;
+        sdmx-dim:refArea      <http://purl.org/purworejo/resource/kecamatan/33-06-16> ;
+        sdmx-dim:refPeriod    "2023"^^xsd:gYear ;
+        ex:jumlahproduksi     18230.4 ;
+        sdmx-att:unitMeasure  "ton" .
